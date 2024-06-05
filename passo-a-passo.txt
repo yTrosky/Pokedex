@@ -1,0 +1,24 @@
+-- *COMO FAZER UM ARQUIVO VUE.js* --
+npm install -g @vue/cli ->  Instalando o VUE.js
+vue -v -> Conferindo se foi instalado 
+cd Downloads -> Entrando em uma pasta onde o projeto vai ser iniciado
+vue create (nome do app) -> Criação do projeto com VUE.js
+cd (nome do projeto) -> Entrando no projeto para rodar a aplicação
+npm run serve -> Rodando a aplicação de forma local ou network
+
+--* COMO INSTALAR E USAR O FRAMEWORK BULMA* --
+npm install bulma -> Instalando o framework
+import "../node_modules/bulma/css/bulma.css" -> na pasta "main.js" cole esse codigo para 
+
+
+
+-- *CASO OCORRO UM ERRO* --
+Component name "Cliente" should always be multi-word  vue/multi-word-component-names
+
+1 - Abrir o arquivo package.json
+
+2 - Procurar por eslintConfig
+
+3 - Acrescentar na parte "Rules" a regra: "vue/multi-word-component-names": "off"
+
+4 - Para o Vue e inicia novamente 
